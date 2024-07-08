@@ -32,6 +32,7 @@ function mostrarInfoPokemon(pokemon) {
     const cartaHTML = `<div>
                         <img src='${pokemon.sprites.front_default}'>
                         <h1>${pokemon.name}</h1>
+                        <p><strong>Tipo:</strong>${pokemon.types[1].type.name}</p>
                         <p><strong>Peso:</strong> ${pokemon.weight / 10} kg</p>
                         <p><strong>Habilidad:</strong> ${pokemon.abilities[0].ability.name}</p>
                     </div>`
